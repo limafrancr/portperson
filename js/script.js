@@ -158,8 +158,8 @@ const listaProjetos = [
     {
         nome: "Allyuni",
         descricao: "Este é um site que fiz para teste",
-        imagem: "escrever.png",
-        link: "https://sanctius.co/",
+        imagem: "images/escrever.png",
+        link: "https://lively-bublanina-dca0ca.netlify.app/",
         tecnologias: [
             "HTML",
             "CSS",
@@ -169,60 +169,24 @@ const listaProjetos = [
     {
         nome: "Buscador de CEP",
         descricao: "Este é um buscador de CEP",
-        imagem: "images/img-projetos/site-Emmunah.png",
-        link: "http://projetos.nicchon.com/projetos/ecommerce-j%C3%B3ias",
+        imagem: "images/endereço.png",
+        link: "https://idyllic-moonbeam-3fa051.netlify.app/",
         tecnologias: [
             "HTML",
             "CSS",
-            "JavaScript",
-            "PHP",
-            "Banco de Dados"
+            "JavaScript"
         ]
     },
     {
-        nome: "Facebook",
-        descricao: "Este é um dos projetos práticos do curso, onde criei uma réplica do site do facebook",
-        imagem: "images/img-projetos/site-facebook.png",
-        link: "http://projetos.nicchon.com/projetos/facebook-login",
+        nome: "Aqui vai algo",
+        descricao: "Aqui vai algo",
+        imagem: "images/",
+        link: "http://",
         tecnologias: [
             "HTML",
             "CSS"
         ]
-    },
-    {
-        nome: "Cena Construção",
-        descricao: "Este é um dos projetos práticos do curso, um site de empresa de construção",
-        imagem: "images/img-projetos/site-cena.png",
-        link: "http://projetos.nicchon.com/projetos/cena-constru%C3%A7%C3%A3o",
-        tecnologias: [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ]
-    },
-    {
-        nome: "Venda de Carros",
-        descricao: "Este é um dos projetos práticos do curso, a réplica de uma página de venda de carros",
-        imagem: "images/img-projetos/site-venda-de-carros.png",
-        link: "http://projetos.nicchon.com/projetos/venda-de-carros",
-        tecnologias: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "PHP"
-        ]
-    },
-    {
-        nome: "Danki Code",
-        descricao: "Este é um dos projetos práticos do curso, a réplica de uma página inicial da Danki Code",
-        imagem: "images/img-projetos/site-dankicode.png",
-        link: "http://projetos.nicchon.com/projetos/danki-code-2",
-        tecnologias: [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ]
-    },
+    }
 ]
 
 var projectsBox = $('#projetos .projects-box');

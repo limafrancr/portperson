@@ -528,11 +528,11 @@ section.contatos .endereco{
 footer{
 	padding: 10px;
 	text-align: center;
-	background: #000000;
+	background: #6c7db7;
 }
 
 footer p{
-	color: white !important;
+	color: rgb(0, 0, 0) !important;
 }
 
 
