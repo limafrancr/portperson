@@ -599,7 +599,7 @@ footer p{
     /* Contatos */
     section.contatos .position{
         grid-template-columns: 1fr;
-        width: 100%;
+        width: 90%;
         background-color: transparent; /*Imagem de contato*/
     }
 
