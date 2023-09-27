@@ -453,6 +453,7 @@ section.contatos .bg{
     opacity: 0.7;
 }
 section.contatos .position{
+    width: 100%;
     background-color: rgba(250, 250, 250, 0.6);
     margin: 30px auto 50px;
     padding: 20px;
@@ -728,8 +729,7 @@ footer p{
     width: 0;
     height: 0;
     margin: 30px 0 20px 20px;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-color: #193556;
     border-radius: 50%;
     transition: 0.3s ease;
   }
