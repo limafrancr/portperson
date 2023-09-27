@@ -600,6 +600,7 @@ footer p{
     section.contatos .position{
         grid-template-columns: 1fr;
         width: 100%;
+        background-color: transparent;
     }
     section.contatos .position .foto-contatos{
         display: inline-block;
