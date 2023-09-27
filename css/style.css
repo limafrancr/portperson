@@ -605,7 +605,7 @@ footer p{
 
     .imm img{
         border-radius: 1rem 2rem 3rem 1rem;
-        box-shadow: 1rem 2rem 3rem color transparent;
+        box-shadow: 3px 3px 10px;
         width: 100%;
     }
     section.contatos{
