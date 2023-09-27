@@ -600,7 +600,15 @@ footer p{
     section.contatos .position{
         grid-template-columns: 1fr;
         width: 100%;
-        background-color: transparent;
+        background-color: transparent; /*Imagem de contato*/
+    }
+
+    .imm img{
+        border-radius: 1rem 2rem 3rem 3rem;
+        box-shadow: 1rem 2rem 3rem;
+    }
+    section.contatos{
+        background-color: transparent; /*Seção criada, apagar se necessario*/
     }
     section.contatos .position .foto-contatos{
         display: inline-block;
