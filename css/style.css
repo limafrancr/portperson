@@ -599,13 +599,14 @@ footer p{
     /* Contatos */
     section.contatos .position{
         grid-template-columns: 1fr;
-        width: 90%;
+        width: 100%;
         background-color: transparent; /*Imagem de contato*/
     }
 
     .imm img{
-        border-radius: 1rem 2rem 3rem 3rem;
+        border-radius: 1rem 2rem 3rem 1rem;
         box-shadow: 1rem 2rem 3rem;
+        width: 100%;
     }
     section.contatos{
         background-color: transparent; /*Seção criada, apagar se necessario*/
@@ -613,7 +614,7 @@ footer p{
     section.contatos .position .foto-contatos{
         display: inline-block;
         margin: 0 auto;
-        height: 100vw;
+        height: 90vw;
         max-height: 60vh;
         max-width: 70vh;
     }
