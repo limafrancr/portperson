@@ -453,7 +453,7 @@ section.contatos .bg{
     opacity: 0.7;
 }
 section.contatos .position{
-    width: 105%;
+    width: 90%;
     background-color: rgba(250, 250, 250, 0.6);
     margin: 30px auto 50px;
     padding: 20px;
