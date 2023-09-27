@@ -59,9 +59,9 @@ const linguagensProgramacao = [
     },
     {
         nome: "Python",
-        nivel: "Iniciante/Intermediário",
+        nivel: "Básico/Intermediário",
         percetual: 40,
-        descricao: "Arrays, operadores aritméticos, de comparação, lógicas, condicionais, saída de dados, loops, funções, Análise de dados"
+        descricao: "Análise de dados, Arrays, operadores aritméticos, de comparação, lógicas, condicionais, saída de dados, loops, funções,"
     },
     {
         nome: "Excel",
@@ -251,3 +251,10 @@ listaProjetos.forEach((projeto, index) => {
     background: green
 }
 */
+
+
+function menuOnClick() {
+    document.getElementById("menu-bar").classList.toggle("change");
+    document.getElementById("nav").classList.toggle("change");
+    document.getElementById("menu-bg").classList.toggle("change-bg");
+  }

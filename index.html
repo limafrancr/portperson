@@ -1,68 +1,105 @@
-<!DOCTYPE html><html lang="pt-br"><head>
-    <!-- Personalização -->
-    <title>Francisco Lima</title>
-    <meta name="theme-color" content="#061e4e">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="aplicativo-de-script-de-atalho.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<!DOCTYPE html>
+<html lang="pt-br">
 
-    <!-- SEO -->
-    <meta name="title" content="Francisco Rodrigues Lima">
-    <meta name="author" content="Francisco Rodrigues Lima">
-    <meta property="og:image" itemprop="image" content="images/icone-meta.png">
-    <meta name="description" content="Desenvolvedor Web">
-    <meta name="keywords" content="Site,Desenvolvedor Web,Web Development,Web Dev,Comprar site">
+    <head>
+        <!-- Personalização -->
+        <title>Francisco Lima</title>
+        <meta name="theme-color" content="#061e4e">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="aplicativo-de-script-de-atalho.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
+        <!-- SEO -->
+        <meta name="title" content="Francisco Rodrigues Lima">
+        <meta name="author" content="Francisco Rodrigues Lima">
+        <meta property="og:image" itemprop="image" content="images/icone-meta.png">
+        <meta name="description" content="Desenvolvedor Web">
+        <meta name="keywords" content="Site,Desenvolvedor Web,Web Development,Web Dev,Comprar site">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Link para ICONS Fa fas-etc --> <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+            rel="stylesheet">
 
-    <!-- JS -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Gráficos --> <script src="js/chart.js"></script>
-</head>
-<body>
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Link para ICONS Fa fas-etc -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <header>
-        <nav class="principal">
-            <ul class="menu">
-                <li>
-                    <a href="#home" class="scrollSuave">
-                        <div><p>Home</p></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#sobre" class="scrollSuave">
-                        <div><p>Sobre</p></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#formacao" class="scrollSuave">
-                        <div><p>Formação</p></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#projetos" class="scrollSuave">
-                        <div><p>Projetos</p></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#contatos" class="scrollSuave">
-                        <div><p>Contatos</p></div>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+        <!-- JS -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Gráficos -->
+        <script src="js/chart.js"></script>
+    </head>
 
-    <!-- <section id="home" class="home">
+    <body>
+
+        <header>
+            <nav class="principal">
+                <ul class="menu">
+                    <li>
+                        <a href="#home" class="scrollSuave">
+                            <div>
+                                <p>ìnicio</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#sobre" class="scrollSuave">
+                            <div>
+                                <p>Sobre</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#formacao" class="scrollSuave">
+                            <div>
+                                <p>Formação</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projetos" class="scrollSuave">
+                            <div>
+                                <p>Projetos</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contatos" class="scrollSuave">
+                            <div>
+                                <p>Contatos</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+             <div id="menu">
+                <div id="menu-bar" onclick="menuOnClick()">
+                  <div id="bar1" class="bar"></div>
+                  <div id="bar2" class="bar"></div>
+                  <div id="bar3" class="bar"></div>
+                </div>
+                <nav class="nav" id="nav">
+                  <ul>
+                    <li><a href="#home">ìnicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                  </ul>
+                </nav> 
+              </div>
+              
+              <div class="menu-bg" id="menu-bg"></div> 
+
+        </header>
+
+        <!-- <section id="home" class="home">
             <article>
                 <a href="#"><img id="logo" src="images/favicon.png" alt="Nicchon Sanchez"></a>
                 <h3>Francisco Lima</h3>
@@ -70,173 +107,188 @@
             </article>
             <a href="#sobre" class="scrollSuave"><div class="down-arrow"><img src="arrow.ico" alt=""></div></a>
     </section> -->
-    <!-- Home -->
-    
-       <!-- <div class="circle"></div> circle -->
-        
-    <section id="sobre" class="sobre">
-        <div class="container">
+        <!-- Home -->
 
-            <figure>
-                <div class="l">
-                    <img src="images/imgprff.png" alt="Imagem não suportada">
+        <!-- <div class="circle"></div> circle -->
+
+        <section id="sobre" class="sobre">
+            <div class="container">
+
+                <figure>
+                    <div class="l">
+                        <img src="images/imgprff.png" alt="Imagem não suportada">
+                    </div>
+                </figure>
+
+                <div class="sobre-mim">
+                    <h1>
+                        Olá, sou Francisco Lima!
+                    </h1>
+                    <p>
+                        Estou a procura de um estágio ou oportunidade de primeiro emprego na área.
+                        <br>
+                        Estou cursando superior tecnólogo em Análise e desenvolvimento de sistemas Unopar.
+                        <br>
+                        Realizei alguns projetos os quais estão disponíveis mais abaixo.
+
+                    </p>
+
+                    <div class="redes">
+                        <a href="https://github.com/limafrancr" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="https://instagram.com/limafrancr" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://linkedin.com/in/limafrancr" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
                 </div>
-            </figure>
-
-            <div class="sobre-mim">
-                <h1>
-                    Olá, sou Francisco Lima!
-                </h1>
-                <p>
-                    Estou a procura de um estágio ou oportunidade de primeiro emprego na área.
-                    <br>
-                    Estou cursando superior tecnólogo em Análise e desenvolvimento de sistemas Unopar.
-                    <br>
-                    Realizei alguns projetos os quais estão disponíveis mais abaixo.
-                    
-                </p>
-                
-                <div class="redes">
-                    <a href="https://github.com/limafrancr" target="_blank"><i class="bi bi-github"></i></a>
-                    <a href="https://instagram.com/limafrancr" target="_blank"><i class="bi bi-instagram"></i></a>
-                    <a href="https://linkedin.com/in/limafrancr" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
-            </div>
-            <!-- /.sobre-mim -->
-
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- sobre -->
-
-    <section id="formacao" class="formacao">
-        <div class="container">
-
-            <h2 class="titulo-pag">Formação &amp; Proficiências</h2>
-
-            <article class="formacao-academica">
-				<h3>Formação acadêmica</h3>
-                
-				<div>
-					<h4>Análise e desenvolvimento de sistemas</h4>
-					<p>Unopar<br>
-
-					Cursando desde Fevereiro de 2023.</p>
-				</div>
-			</article><!-- formacao-academica -->
-			
-			<article class="idiomas">
-				<h3>Idiomas</h3>
-				
-				<div>
-					<h4>Inglês (Intermediário)</h4>
-					<div class="porcentagem ingles"><div></div></div>
-				</div>
-				
-				<div>
-					<h4>Espanhol (Básico)</h4>
-					<div class="porcentagem espanhol"><div></div></div>
-				</div>
-			</article><!-- idiomas -->
-
-            <article class="programacao">
-				<h3><span>Tecnologias</span><br><hr style="transform: translateY(-15px);"></h3>
-				
-                <!-- Cards adicionados com o JavaScript -->
-
-			</article><!-- programacao -->
-
-			<article class="cursos-complementates">
-				<h3>Cursos complementates</h3>
-				
-				<div>
-					<h4>Python para análise de dados</h4>
-					<p>Cogna educação<br>
-
-					Concluido em Julho de 2023.</p>
-				</div>
-
-                <div>
-					<h4>Redes de computadores</h4>
-					<p>Cogna eduação.<br>
-
-					Concluído em julho 2023.</p>
-				</div>
-			</article><!-- cursos-complementates -->
-
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- /.formacao -->
-
-    <section id="projetos" class="projetos">
-        <div class="container">
-            <h2 class="titulo-pag">Projetos</h2>
-
-            <div class="projects-box">
-
-                <!-- Cards gerados pelo JS -->
+                <!-- /.sobre-mim -->
 
             </div>
-            <!-- /.projects-box -->
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- /.projetos -->
+            <!-- /.container -->
+        </section>
+        <!-- sobre -->
 
-    <section class="contatos" id="contatos">
-        <div class="bg-color-red"></div><!-- /.bg editar -->
-        <div class="container">
-            <h2 class="titulo-pag">Contatos</h2>
+        <section id="formacao" class="formacao">
+            <div class="container">
 
-            <div class="position">
-                <div class="">
-                    <img src="images/imgprff.png" alt="">
-                </div><!-- /.foto-contatos -->
-                <div class="info">
-                    <div class="info-single">
-                        <h2>Telefones:</h2>
-                        <ul>
-                            <li><a href="tel:+5562995299207">62 995299207</a> <a href="" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
-                            <li><a href="tel:+5562995299207">62 995299207</a></li>
-                        </ul>
+                <h2 class="titulo-pag">Formação &amp; Proficiências</h2>
+
+                <article class="formacao-academica">
+                    <h3>Formação acadêmica</h3>
+
+                    <div>
+                        <h4>Análise e desenvolvimento de sistemas</h4>
+                        <p>Unopar<br>
+
+                            Cursando desde Fevereiro de 2023.</p>
                     </div>
-                    <!-- /.info-single -->
-                    <div class="info-single">
-                        <h2>E-mails:</h2>
-                        <ul>
-                            <li><a href="https://gmail.com">franciscolimalima998@gmail.com</a></li>
-                            <li><a href="https://gmail.com">franciscolimalima998@gmail.com</a></li>
-                        </ul>
+                </article><!-- formacao-academica -->
+
+                <article class="idiomas">
+                    <h3>Idiomas</h3>
+
+                    <div>
+                        <h4>Inglês (Intermediário)</h4>
+                        <div class="porcentagem ingles">
+                            <div></div>
+                        </div>
                     </div>
-                    <!-- /.info-single -->
-                    <div class="info-single">
-                        <h2>Redes sociais:</h2>
-                        <ul>
-                            <li><a href="https://github.com/limafrancr" target="_blank"><i class="fa fa-github"></i></a></li>
-                            <li><a href="https://linkedin.com/in/limafrancr" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="https://instagram.com/limafrancr" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
+
+                    <div>
+                        <h4>Espanhol (Básico)</h4>
+                        <div class="porcentagem espanhol">
+                            <div></div>
+                        </div>
                     </div>
-                    <!-- /.info-single -->
-                </div>
-                <!-- /.info -->
-                <div class="endereco"><a href="https://maps.app.goo.gl/wFqwmVKnSBeAqvNs9" target="_blank" rel="noopener noreferrer"><i style="color: red;" class="fa fa-map-pin"></i>R. Aroeira- Anápolis-GO</a></div>
-                <!-- /.endereco -->
+                </article><!-- idiomas -->
+
+                <article class="programacao">
+                    <h3><span>Tecnologias</span><br>
+                        <hr style="transform: translateY(-15px);">
+                    </h3>
+
+                    <!-- Cards adicionados com o JavaScript -->
+
+                </article><!-- programacao -->
+
+                <article class="cursos-complementates">
+                    <h3>Cursos complementates</h3>
+
+                    <div>
+                        <h4>Python para análise de dados</h4>
+                        <p>Cogna educação<br>
+
+                            Concluido em Julho de 2023.</p>
+                    </div>
+
+                    <div>
+                        <h4>Redes de computadores</h4>
+                        <p>Cogna eduação.<br>
+
+                            Concluído em julho 2023.</p>
+                    </div>
+                </article><!-- cursos-complementates -->
+
             </div>
-            <!-- /.position -->
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- /.contatos -->
+            <!-- /.container -->
+        </section>
+        <!-- /.formacao -->
 
-    
-    <footer>
-        <p>2023 © Todos os direitos reservados | Feito por: <a href="https://instagram.com/limafrancr" target="_blank" style="color: white; text-decoration: underline 1px;">Francisco Lima</a></p>
-    </footer>
+        <section id="projetos" class="projetos">
+            <div class="container">
+                <h2 class="titulo-pag">Projetos</h2>
+
+                <div class="projects-box">
+
+                    <!-- Cards gerados pelo JS -->
+
+                </div>
+                <!-- /.projects-box -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.projetos -->
+
+        <section class="contatos" id="contatos">
+            <div class="bg-color"></div><!-- /.bg editar -->
+            <div class="container">
+                <h2 class="titulo-pag">Contatos</h2>
+
+                <div class="position">
+                    <div class="">
+                        <img src="images/imgprff.png" alt="">
+                    </div><!-- /.foto-contatos -->
+                    <div class="info">
+                        <div class="info-single">
+                            <h2>Telefones:</h2>
+                            <ul>
+                                <li><a href="tel:+5562995299207">62 995299207</a> <a href="" target="_blank"><i
+                                            class="fa fa-whatsapp"></i></a></li>
+                                <li><a href="tel:+5562995299207">62 995299207</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.info-single -->
+                        <div class="info-single">
+                            <h2>E-mails:</h2>
+                            <ul>
+                                <li><a href="https://gmail.com">franciscolimalima998@gmail.com</a></li>
+                                <li><a href="https://gmail.com">franciscolimalima998@gmail.com</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.info-single -->
+                        <div class="info-single">
+                            <h2>Redes sociais:</h2>
+                            <ul>
+                                <li><a href="https://github.com/limafrancr" target="_blank"><i
+                                            class="fa fa-github"></i></a></li>
+                                <li><a href="https://linkedin.com/in/limafrancr" target="_blank"><i
+                                            class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://instagram.com/limafrancr" target="_blank"><i
+                                            class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- /.info-single -->
+                    </div>
+                    <!-- /.info -->
+                    <div class="endereco"><a href="https://maps.app.goo.gl/wFqwmVKnSBeAqvNs9" target="_blank"
+                            rel="noopener noreferrer"><i style="color: red;" class="fa fa-map-pin"></i>R. Aroeira-
+                            Anápolis-GO</a></div>
+                    <!-- /.endereco -->
+                </div>
+                <!-- /.position -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.contatos -->
 
 
-    <!-- JS -->
-    <script src="js/script.js"></script>
+        <footer class="fotter" style="background-color:  #A1B4C4; width: 100% auto;">
+            <p>2023 © Todos os direitos reservados | Feito por: <a href="https://instagram.com/limafrancr"
+                    target="_blank" >Francisco Lima</a></p>
+        </footer>
 
-</body></html>
+
+        <!-- JS -->
+        <script src="js/script.js"></script>
+
+    </body>
+
+</html>
